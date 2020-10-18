@@ -1,0 +1,43 @@
+body{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 1.3em;
+}
+
+#container{
+    background: greenyellow;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input, button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button{
+    background: #4ac7b7;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background: #50c0a2;
+}
+
+button:active{
+    transform: translateY(5px);
+}
+
+#resultado{
+    background: #4ac7b7;
+    display: none;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 200px;
+}
+
